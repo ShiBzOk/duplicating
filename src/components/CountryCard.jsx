@@ -40,13 +40,7 @@ function CountryCard({
             {isStamped ? "STÄMPLAD" : "STÄMPLA"}
           </button>
           
-          <button 
-            className={isWishlisted ? "star-active" : ""}
-            onClick={(e) => {
-              e.stopPropagation();
-              onToggleWishlist(country.codes?.alpha_3);
-            }}
-          >
+ 
             {isWishlisted ? "★" : "☆"}
           </button>
         </div>
