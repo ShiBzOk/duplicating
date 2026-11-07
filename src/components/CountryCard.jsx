@@ -16,7 +16,6 @@ function CountryCard({
       </div>
 
       <div className="country-content">
-        <h3>{country.names?.common}</h3>
 
         <div className="country-meta">
           <div>
