@@ -1,4 +1,3 @@
-import "../styles/CountryCard.css";
 
 function CountryCard({ 
   country, 
